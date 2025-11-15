@@ -21,5 +21,11 @@ public class Main {
                 Fué lanzada en: %d
                 """.formatted(fechaDeLanzamiento);
         System.out.println(sinopsis);
+
+        int clasificacion = (int) (media / 2);
+        System.out.println(clasificacion);
+        String hola = "Hola";
+        int numero = 5;
+        System.out.println(hola + numero);
     }
 }
